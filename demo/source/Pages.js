@@ -9,7 +9,7 @@ const renderPage = (page, missingPath) => {
     switch (page) {
         case "home":
             return <Home />;
-        case "about":
+        case "page2":
             return <Page2 />;
         default:
             // Handle missing pages
