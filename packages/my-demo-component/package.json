@@ -1,13 +1,11 @@
 {
-    "name": "jarl-react-redux",
-    "version": "0.3.3",
-    "description": "Redux integration for jarl-react",
+    "name": "my-demo-component",
+    "version": "0.0.1",
+    "description": "Demo component from Lerna React Library Template",
     "main": "index.js",
     "module": "es/index.js",
     "browserify": {
-        "transform": [
-            "loose-envify"
-        ]
+        "transform": ["loose-envify"]
     },
     "scripts": {
         "test": "jest",
@@ -20,16 +18,19 @@
     "files": [
         "es",
         "umd",
+        "lib",
+        "hocFactory.js",
         "index.js",
-        "actions.js",
-        "defines.js",
-        "Provider.js",
-        "reducer.js"
+        "Link.js",
+        "NavigationProvider.js",
+        "RouteMapper.js",
+        "SimpleProvider.js",
+        "withActive.js",
+        "withNavigate.js",
+        "withState.js"
     ],
     "jest": {
-        "setupFiles": [
-            "raf/polyfill"
-        ],
+        "setupFiles": ["raf/polyfill"],
         "testRegex": "__tests__/.+\\.test\\.js$"
     },
     "keywords": [
@@ -42,25 +43,22 @@
         "tools",
         "url",
         "history",
-        "ssr",
-        "redux"
+        "ssr"
     ],
     "author": "Peter Hurst",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/downplay/jarl-react.git"
+        "url": "https://github.com/downplay/lerna-react-library-template.git"
     },
     "peerDependencies": {
+        "prop-types": ">=15",
         "react": ">=15"
     },
     "dependencies": {
-        "invariant": "^2.2.2",
-        "jarl-react": "^0.3.3",
-        "prop-types": "^15.6.0"
+        "hoist-non-react-statics": "^2.0.0"
     },
     "devDependencies": {
-        "babel-cli": "^6.26.0",
         "babel-jest": "^22.0.4",
         "babelrc-rollup": "^3.0.0",
         "enzyme": "^3.2.0",

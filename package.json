@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "jarl-react-packages",
+    "name": "lerna-react-library-template",
     "scripts": {
         "build": "node ./build/all.js",
         "clean": "lerna run clean",

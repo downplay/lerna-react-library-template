@@ -9,13 +9,13 @@ import resolve from "rollup-plugin-node-resolve";
 
 const config = {
     input: "source/index.js",
-    name: "JarlReactRedux",
+    name: "MyDemoComponentLib",
     globals: {
         react: "React",
-        "jarl-react": "JarlReact",
+        "my-demo-component": "MyDemoComponent",
         "prop-types": "PropTypes"
     },
-    external: ["react", "prop-types", "jarl-react"],
+    external: ["react", "prop-types", "MyDemoComponent"],
     plugins: [
         babel({
             exclude: "node_modules/**"

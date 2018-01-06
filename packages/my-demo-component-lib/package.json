@@ -1,13 +1,11 @@
 {
-    "name": "jarl-react",
+    "name": "my-demo-component-redux",
     "version": "0.3.3",
-    "description": "Just Another Router Library for React",
+    "description": "Redux integration for my-demo-component",
     "main": "index.js",
     "module": "es/index.js",
     "browserify": {
-        "transform": [
-            "loose-envify"
-        ]
+        "transform": ["loose-envify"]
     },
     "scripts": {
         "test": "jest",
@@ -20,21 +18,14 @@
     "files": [
         "es",
         "umd",
-        "lib",
-        "hocFactory.js",
         "index.js",
-        "Link.js",
-        "NavigationProvider.js",
-        "RouteMapper.js",
-        "SimpleProvider.js",
-        "withActive.js",
-        "withNavigate.js",
-        "withState.js"
+        "actions.js",
+        "defines.js",
+        "Provider.js",
+        "reducer.js"
     ],
     "jest": {
-        "setupFiles": [
-            "raf/polyfill"
-        ],
+        "setupFiles": ["raf/polyfill"],
         "testRegex": "__tests__/.+\\.test\\.js$"
     },
     "keywords": [
@@ -47,22 +38,25 @@
         "tools",
         "url",
         "history",
-        "ssr"
+        "ssr",
+        "redux"
     ],
     "author": "Peter Hurst",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/downplay/jarl-react.git"
+        "url": "https://github.com/downplay/lerna-react-library-template.git"
     },
     "peerDependencies": {
-        "prop-types": ">=15",
         "react": ">=15"
     },
     "dependencies": {
-        "hoist-non-react-statics": "^2.0.0"
+        "invariant": "^2.2.2",
+        "my-demo-component": "^0.0.1",
+        "prop-types": "^15.6.0"
     },
     "devDependencies": {
+        "babel-cli": "^6.26.0",
         "babel-jest": "^22.0.4",
         "babelrc-rollup": "^3.0.0",
         "enzyme": "^3.2.0",

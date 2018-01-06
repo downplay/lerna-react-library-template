@@ -1978,15 +1978,17 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-jarl-react-redux@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/jarl-react-redux/-/jarl-react-redux-0.3.1.tgz#2f9852379046c0ba3c76848583aa824abea705e1"
+jarl-react-redux@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/jarl-react-redux/-/jarl-react-redux-0.3.3.tgz#43f96c2006e3ca9567c383f331513c58aeb592f9"
   dependencies:
-    jarl-react "^0.3.1"
+    invariant "^2.2.2"
+    jarl-react "^0.3.3"
+    prop-types "^15.6.0"
 
-jarl-react@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/jarl-react/-/jarl-react-0.3.1.tgz#939d85a33f7044198e4a1719b64d76ecfb593d1c"
+jarl-react@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/jarl-react/-/jarl-react-0.3.3.tgz#da93efc59505181e1d1ade0bbed4eef8b8131ba7"
   dependencies:
     hoist-non-react-statics "^2.0.0"
 
@@ -3045,14 +3047,14 @@ react-emotion@^8.0.12:
     babel-plugin-emotion "^8.0.12"
     emotion-utils "^8.0.12"
 
-react-hot-loader@^4.0.0-beta.3:
-  version "4.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.0.0-beta.3.tgz#52b14061bdeb6ab5714a967fe4fef953d8156248"
+react-hot-loader@^4.0.0-beta.12:
+  version "4.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.0.0-beta.12.tgz#bb877cc22a64ec5496367bd376fd395ac31566d4"
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
     hoist-non-react-statics "^2.3.1"
-    react-stand-in "^4.0.0-beta.3"
+    react-stand-in "^4.0.0-beta.12"
     redbox-react "^1.3.6"
     source-map "^0.6.1"
 
@@ -3067,9 +3069,11 @@ react-redux@^5.0.6:
     loose-envify "^1.1.0"
     prop-types "^15.5.10"
 
-react-stand-in@^4.0.0-beta.3:
-  version "4.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/react-stand-in/-/react-stand-in-4.0.0-beta.3.tgz#92d2a4c1005f31efbfa312ed7eebd2838b06b77f"
+react-stand-in@^4.0.0-beta.12:
+  version "4.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/react-stand-in/-/react-stand-in-4.0.0-beta.12.tgz#8e617c4e1f5ef15b51fb075fd5ef3e47d6bc3996"
+  dependencies:
+    shallowequal "^1.0.2"
 
 react@^16.2.0:
   version "16.2.0"
@@ -3345,6 +3349,10 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+shallowequal@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.0.2.tgz#1561dbdefb8c01408100319085764da3fcf83f8f"
 
 shebang-command@^1.2.0:
   version "1.2.0"
