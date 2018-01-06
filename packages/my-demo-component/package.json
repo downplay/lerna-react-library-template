@@ -1,6 +1,6 @@
 {
     "name": "my-demo-component",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Demo component from Lerna React Library Template",
     "main": "index.js",
     "module": "es/index.js",
@@ -20,16 +20,8 @@
     "files": [
         "es",
         "umd",
-        "lib",
-        "hocFactory.js",
         "index.js",
-        "Link.js",
-        "NavigationProvider.js",
-        "RouteMapper.js",
-        "SimpleProvider.js",
-        "withActive.js",
-        "withNavigate.js",
-        "withState.js"
+        "MyDemoComponent.js"
     ],
     "jest": {
         "setupFiles": [
