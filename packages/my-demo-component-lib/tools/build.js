@@ -3,7 +3,7 @@ const { execSync } = require("child_process");
 const prettyBytes = require("pretty-bytes");
 const gzipSize = require("gzip-size");
 
-const libName = "my-demo-component-redux";
+const libName = "my-demo-component-lib";
 
 const exec = (command, extraEnv) =>
     execSync(command, {

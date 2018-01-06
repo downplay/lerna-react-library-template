@@ -9,10 +9,12 @@ import resolve from "rollup-plugin-node-resolve";
 
 const config = {
     input: "source/index.js",
-    name: "MyDemoComponent",
-    globals: {
-        react: "React",
-        "prop-types": "PropTypes"
+    output: {
+        name: "MyDemoComponent",
+        globals: {
+            react: "React",
+            "prop-types": "PropTypes"
+        }
     },
     external: ["react", "prop-types"],
     plugins: [
