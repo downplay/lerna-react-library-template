@@ -1,13 +1,11 @@
 {
     "name": "my-demo-component",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "description": "Demo component from Lerna React Library Template",
     "main": "index.js",
     "module": "es/index.js",
     "browserify": {
-        "transform": [
-            "loose-envify"
-        ]
+        "transform": ["loose-envify"]
     },
     "scripts": {
         "test": "jest",
@@ -17,16 +15,9 @@
         "clean": "git clean -fdX .",
         "lint": "eslint source"
     },
-    "files": [
-        "es",
-        "umd",
-        "index.js",
-        "MyDemoComponent.js"
-    ],
+    "files": ["es", "umd", "index.js", "MyDemoComponent.js"],
     "jest": {
-        "setupFiles": [
-            "raf/polyfill"
-        ],
+        "setupFiles": ["raf/polyfill"],
         "testRegex": "__tests__/.+\\.test\\.js$"
     },
     "keywords": [

@@ -1,4 +1,4 @@
-# Lerna React Library Template
+# Lerna React Library Template 0.1.1
 
 This is a "Monorepo" Lerna setup with one React component and an additional library in another package that depends on it.
 
@@ -44,15 +44,15 @@ yarn e2e
 * Rename all my-demo-component-lib -> your-component-foo
 * Rename packages/my-demo-component\*
 * Rename all MyDemoComponent and MyDemoComponentLib. Note: the new name will be used as the global name for UMB (browser) builds
-
-If you need more libs, duplicate folders as needed and add to lerna.json.
+* In package.json for each component, the `files` array must specify all your .js files, which will get built into the root of the package (but .gitignore will ignore them). Also `es` and `umd` are the folders with the ES6 and UMD builds respectively
+* If you want to add more libs, duplicate folders as needed and add to `lerna.json`
 
 ## Publishing
 
 To publish to npm
 
 ```
-yarn publish
+lerna publish
 ```
 
 ## Credits
