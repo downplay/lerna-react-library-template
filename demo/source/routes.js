@@ -4,12 +4,8 @@ const routes = [
         state: { page: "home" }
     },
     {
-        path: "/about",
-        state: { page: "about" }
-    },
-    {
-        path: "/?foo",
-        state: { page: "foo" }
+        path: "/page2",
+        state: { page: "page2" }
     },
     {
         // 404 wildcard route

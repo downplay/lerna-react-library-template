@@ -4,7 +4,7 @@ This is a "Monorepo" Lerna setup with one React component and an additional libr
 
 The build scripts will build and publish to npm with CJS, ES6 and UMD builds.
 
-Jest and Cypress are included for tests.
+Jest and Cypress are included for tests. AirBnB lint rules (relaxed a bit) included, with Prettier exclusions. Demo site uses Parcel bundler.
 
 ## Getting Started
 
@@ -20,7 +20,8 @@ yarn build
 To run demo:
 
 ```
-yarn demo
+yarn global add parcel
+yarn start
 ```
 
 To run Jest tests:

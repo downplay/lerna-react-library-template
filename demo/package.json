@@ -4,17 +4,16 @@
     "version": "0.0.1",
     "scripts": {
         "cypress": "cypress open",
-        "start": "node ./tools/run",
-        "clean": "git clean -fdX ."
+        "start": "node ./tools/run"
     },
     "dependencies": {
         "babel-plugin-emotion": "^8.0.12",
-        "cypress": "^1.3.0",
         "emotion": "^8.0.12",
         "history": "^4.7.2",
         "jarl-react": "^0.3.3",
         "jarl-react-redux": "^0.3.3",
-        "parcel-bundler": "^1.3.1",
+        "my-demo-component": "^0.0.1",
+        "my-demo-component-lib": "^0.0.1",
         "prop-types": "^15.6.0",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
@@ -22,5 +21,8 @@
         "react-hot-loader": "^4.0.0-beta.12",
         "react-redux": "^5.0.6",
         "redux": "^3.7.2"
+    },
+    "devDependencies": {
+        "cypress": "^1.3.0"
     }
 }

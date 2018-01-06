@@ -5,7 +5,8 @@
         "build": "node ./build/all.js",
         "clean": "lerna run clean",
         "start": "cd demo && npm start",
-        "test": "lerna run test --stream"
+        "test": "lerna run test --stream",
+        "e2e": "cd demo && npm cypress"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
