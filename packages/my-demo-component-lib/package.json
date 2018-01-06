@@ -1,12 +1,13 @@
 {
     "name": "my-demo-component-lib",
-    "version": "0.0.1",
-    "description":
-        "Foo version of my-demo-component (part of Lerna React Library Template)",
+    "version": "0.1.0",
+    "description": "Foo version of my-demo-component (part of Lerna React Library Template)",
     "main": "index.js",
     "module": "es/index.js",
     "browserify": {
-        "transform": ["loose-envify"]
+        "transform": [
+            "loose-envify"
+        ]
     },
     "scripts": {
         "test": "jest",
@@ -16,9 +17,16 @@
         "clean": "git clean -fdX .",
         "lint": "eslint source"
     },
-    "files": ["es", "umd", "index.js", "MyDemoComponentLib.js"],
+    "files": [
+        "es",
+        "umd",
+        "index.js",
+        "MyDemoComponentLib.js"
+    ],
     "jest": {
-        "setupFiles": ["raf/polyfill"],
+        "setupFiles": [
+            "raf/polyfill"
+        ],
         "testRegex": "__tests__/.+\\.test\\.js$"
     },
     "keywords": [
@@ -45,7 +53,7 @@
     },
     "dependencies": {
         "invariant": "^2.2.2",
-        "my-demo-component": "^0.0.1",
+        "my-demo-component": "^0.1.0",
         "prop-types": "^15.6.0"
     },
     "devDependencies": {

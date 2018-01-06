@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "my-demo-component-demo",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "scripts": {
         "cypress": "cypress open",
         "start": "parcel source/index.html"
@@ -12,8 +12,8 @@
         "history": "^4.7.2",
         "jarl-react": "^0.3.3",
         "jarl-react-redux": "^0.3.3",
-        "my-demo-component": "^0.0.1",
-        "my-demo-component-lib": "^0.0.1",
+        "my-demo-component": "^0.1.0",
+        "my-demo-component-lib": "^0.1.0",
         "prop-types": "^15.6.0",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
