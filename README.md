@@ -68,10 +68,6 @@ https://github.com/ReactTraining/react-router
 
 ## Copyright
 
-&copy;2017 Downplay Ltd
+&copy;2018 Downplay Ltd
 
 Distributed under MIT license. See LICENSE for full details.
-
-```
-
-```
